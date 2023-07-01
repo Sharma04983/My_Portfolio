@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1bf979efc0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+
+            </nav>
+            <div class="header-text">
+                <p>Full-Stack Developer </p>
+                <h1>Hi, I'm <span>Aman Sharma</span> <br> from Chandigarh</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ------------about------------------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Hello, I'm Aman Sharma, a Full-Stack Developer from Chandigarh. From choreography on a stage to
+                        lines code on a web page, I love combining the worlds of logic and creative design to make
+                        eye-catching, accessible, and user- friendly websites and applications.Technology leads, society
+                        follows. The move towards increasing inclusivity and diversity in the industry through
+                        representation is of importance to me. I'm excited to make the leap and continue refining my
+                        skills with the right company.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Full-Stack Developer</span><br> Comprehensive Understanding of Website</li>
+                            <li><span>Web Development</span><br>Designing Website Interfaces</li>
+                            <li><span>App Development</span><br>Building Android apps</li>
+                            <li><span>Data Analyst </span><br>Interpreting Data and Analyzing Results</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021-23 (Currently)</span><br>Team Leader at Viral Fission.</li>
+                            <li><span>2023</span><br>Research Paper in process for Publication.(Accepted)</li>
+                            <li><span>2022</span><br>3 Month work at Logistic Firm as Technical Person.</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-2025</span><br>Pursuing B.E from Chandigarh University</li>
+                            <li><span>2022</span><br>Data Analyst Certification from IIT Madras</li>
+                            <li><span>2021</span><br>12th from Gujarat CBSE Board</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------services--------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Web design includes HTML, CSS, and JavaScript. They also consider factors such as usability,
+                        accessibility, and search engine optimization (SEO) when designing websites.The goal of web
+                        design is to create websites that are both aesthetically pleasing andfunctional. By doing so,
+                        web designers can help businesses and organizations attract newcustomers, improve brand
+                        awareness, and boost sales.</p>
+                    <a href="https://www.simplilearn.com/what-is-web-designing-article">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Data Analyzing</h2>
+                    <p>Data analysis is the process of inspecting, cleaning, transforming, and modeling data with the
+                        goal of discovering useful information, informing conclusions, and supporting decision-making.
+                        Descriptive statistics , Inferential statistics , Machine learning , Data visualization .
+                    </p>
+                    <a href="https://www.guru99.com/what-is-data-analysis.html">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>The goal of app design is to create apps that are both visually appealing and functional. By
+                        doing so, app designers can help businesses and organizations attract new users, improve
+                        customer engagement, and boost sales.
+                        <br> User interface (UI) design , User experience (UX) design , Wireframing, Prototyping , User
+                        testing .
+                    </p>
+                    <a href="https://www.uxpin.com/studio/blog/principles-mobile-app-design/">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- -------------portfolio---------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Iot HandGesture Car</h3>
+                        <p>IoT gesture car is a type of car that uses sensors to detect the driver's hand gestures.
+                            These gestures can be used to control the car's functions, such as turning on the
+                            headlights, locking the doors, or adjusting the volume of the radio. </p>
+                        <a href="https://uttamadha96.github.io/IOT-project/index.html"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Music Player</h3>
+                        <p>The Android multimedia framework includes support for playing variety of common media types,
+                            so that you can easily integrate audio, video and images into the applications.</p>
+                        <a href="https://developer.android.com/guide/topics/media/mediaplayer"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Used Car Price Prediction</h3>
+                        <p>
+                            Used car price prediction is the process of estimating the value of a used car based on a
+                            variety of factors, such as the car's make, model, year, mileage, condition, and location.
+                        </p>
+                        <a href="https://github.com/Sharma04983/Car_Price__Prediction"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- ------------contact--------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Conatact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i>sharmaaman1719@gmail.com</p>
+                    <p><i class="fa-sharp fa-solid fa-phone"></i>9104504983</p>
+                    <div class="social-icons">
+                        <a href="hhtps://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/Aman04983"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/aman-sharma-017729230/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/amansharma_04983/"><i
+                                class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://github.com/Sharma04983"><i class="fa-brands fa-github"></i></a>
+
+
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright <i class="fa-solid fa-copyright"></i> Aman. 2023</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw_ErsDT6kS3W0k9Z_N3YHrwHBhx6MtJQvuMnz1ZAt3Yl8Vxd4R01G3qD52-sCYcOs/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent succesfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
